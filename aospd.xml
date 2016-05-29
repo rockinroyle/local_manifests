@@ -22,23 +22,25 @@
   <remove-project name="platform/system/extras" groups="pdk" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" />
+  <remove-project name="platform/external/chromium-webview" path="external/chromium-webview"/>
 
   
   <!-- add -->
-   <project path="build" name="platform_build" remote="rockinroyle" revision="aospd_2.0.2" >
+   <project path="build" name="platform_build" remote="rockinroyle" revision="aospd_2.1" >
   	<copyfile src="core/root.mk" dest="Makefile" />
   </project> 
-  <project path="device/moto/shamu" name="device_moto_shamu" remote="rockinroyle" revision="aospd_2.0.2" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="rockinroyle" revision="aospd_2.0.2" />
-  <project path="system/core" name="platform_system_core" remote="rockinroyle" revision="aospd_2.0.1" />
+  <project path="device/moto/shamu" name="device_moto_shamu" remote="rockinroyle" revision="aospd_2.1" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="rockinroyle" revision="aospd_2.1" />
+  <project path="system/core" name="platform_system_core" remote="rockinroyle" revision="aospd_2.1" />
   <project path="vendor/moto" name="proprietary_vendor_moto" remote="rockinroyle" revision="mm" />
   <project path="external/busybox" name="android_external_busybox" remote="rockinroyle" revision="mm" />
-  <project path="vendor/aospd" name="platform_vendor_aospd" remote="rockinroyle" revision="aospd_2.0.1" />
-  <project path="external/sepolicy" name="android_external_sepolicy" remote="rockinroyle" revision="aospd_2.0.1" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="rockinroyle" revision="aospd_2.0.2"/>
-  <project path="system/extras" name="platform_system_extras" remote="rockinroyle" revision="aospd_2.0.1" />
-  <project path="kernel/moto/shamu" name="kernel_moto_shamu" remote="rockinroyle" revision="aospd_2.0.3"/>
+  <project path="vendor/aospd" name="platform_vendor_aospd" remote="rockinroyle" revision="aospd_2.1" />
+  <project path="external/sepolicy" name="android_external_sepolicy" remote="rockinroyle" revision="aospd_2.1" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="rockinroyle" revision="aospd_2.1"/>
+  <project path="system/extras" name="platform_system_extras" remote="rockinroyle" revision="aospd_2.1" />
+  <project path="kernel/moto/shamu" name="aospdK" remote="rockinroyle" revision="aospdK_mm"/>
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="UBERTC/arm-eabi-4.9" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UBERTC/arm-linux-androideabi-4.9" remote="bb" revision="master" />
+  <project path="external/chromium-webview" name="platform_external_chromium-webview" remote="rockinroyle" revision="1.5" />
 
 </manifest>
