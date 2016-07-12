@@ -23,6 +23,7 @@
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" />
   <remove-project name="platform/external/chromium-webview" path="external/chromium-webview"/>
+  <remove-project name="platform/hardware/broadcom/wlan" path="hardware/broadcom/wlan"/>
 
   
   <!-- add -->
@@ -42,5 +43,6 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="UBERTC/arm-eabi-4.9" remote="bb" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UBERTC/arm-linux-androideabi-4.9" remote="bb" revision="master" />
   <project path="external/chromium-webview" name="platform_external_chromium-webview" remote="rockinroyle" revision="1.5" />
+  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="rockinroyle" revision="mm2" />
 
 </manifest>
