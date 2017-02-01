@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="rockinroyle"
+          fetch="https://github.com/rockinroyle/" />
+          
+          <!-- remove -->
+          <remove-project name="vendor_aquarios" remote="aqua" revision="a7.1.1" />
+          
+          <!-- add -->
+          <project path="vendor/aquarios" name="vendor_aquarios" remote="rockinroyle" revision="test" />
+          
+</manifest>
