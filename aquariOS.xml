@@ -6,10 +6,8 @@
           
           <!-- remove -->
           <remove-project name="kernel_huawei_angler" remote="aqua" revision="a7.1.1" />
-          <remove-project name="device_huawei_angler" remote="aqua" revision="a7.1.1" />
           
           <!-- add -->
           <project path="kernel/huawei/angler" name="kernel_huawei_angler" remote="rockinroyle" revision="test" />
-          <project path="device/huawei/angler" name="device_huawei_angler" remote="rockinroyle" revision="test" />
           
 </manifest>
